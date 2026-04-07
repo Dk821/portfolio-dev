@@ -6,8 +6,7 @@ const projects = [
     {
         title: "Creatix — AI Content Automation",
         desc: "Developed an AI-powered web application to automate social media content creation including calendars, captions, and engagement strategies. Built using React, FastAPI, and reliable content generation.",
-        tech: ["React", "FastAPI", "Python", "OpenAI"],
-        live: "#",
+        tech: ["React", "FastAPI", "Python", "OpenAI"],      
         github: "https://github.com/Dk821/Social-Media-Hub.git",
         accentColor: "#8b5cf6",
         glowColor: "rgba(139,92,246,0.15)",
@@ -19,7 +18,6 @@ const projects = [
         title: "Web Audit Project",
         desc: "A comprehensive web auditing tool built with Python and Flask to analyze website performance, SEO, and security vulnerabilities with automated reporting.",
         tech: ["Python", "Flask", "BeautifulSoup", "SEO API"],
-        live: "#",
         github: "https://github.com/Dk821/web-audit.git",
         accentColor: "#10b981",
         glowColor: "rgba(16,185,129,0.15)",
@@ -152,17 +150,7 @@ const Projects = () => {
                                         >
                                             <FaGithub className="text-sm" />
                                         </a>
-                                        <a
-                                            href={project.live}
-                                            aria-label="Live Demo"
-                                            className="w-9 h-9 rounded-lg flex items-center justify-center text-text-secondary hover:text-white transition-all duration-300"
-                                            style={{
-                                                background: "rgba(255,255,255,0.05)",
-                                                border: "1px solid rgba(255,255,255,0.1)",
-                                            }}
-                                        >
-                                            <FaExternalLinkAlt className="text-xs" />
-                                        </a>
+                                       
                                     </div>
                                 </div>
 

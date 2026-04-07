@@ -45,7 +45,7 @@ const experiences = [
         company: "Offline course",
         location: "Coimbatore",
         type: "Internship",
-        duration: "2023 - 2024",
+        duration: "2025",
         accentColor: "#14b8a6",
         glowColor: "rgba(20,184,166,0.15)",
         borderColor: "rgba(20,184,166,0.35)",
