@@ -85,7 +85,7 @@ const Contact = () => (
 
                     {/* CTA Button */}
                     <motion.a
-                        href="mailto:dineshkumarn821@gmail.com"
+                        href="mailto:dhineshkumar6353@gmail.com"
                         initial={{ opacity: 0, scale: 0.96 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}

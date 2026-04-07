@@ -14,7 +14,7 @@ const navLinks = [
 const socials = [
     { href: "https://github.com/Dk821", icon: <FaGithub />, label: "GitHub" },
     { href: "https://www.linkedin.com/in/n-dineshkumar/", icon: <FaLinkedin />, label: "LinkedIn" },
-    { href: "mailto:dineshkumarn821@gmail.com", icon: <FaEnvelope />, label: "Email" },
+    { href: "mailto:dhineshkumar6353@gmail.com", icon: <FaEnvelope />, label: "Email" },
 ];
 
 const Footer = () => {
