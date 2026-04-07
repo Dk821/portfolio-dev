@@ -40,7 +40,7 @@ const Footer = () => {
                             </span>
                         </Link>
                         <p className="text-text-secondary text-sm">Full Stack Developer</p>
-                        <p className="text-text-secondary/50 text-xs mt-1 font-mono">Coimbatore, India</p>
+                        <p className="text-text-secondary/50 text-xs mt-1 font-mono">Erode, India</p>
                     </div>
 
                     {/* Nav links */}
