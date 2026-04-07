@@ -100,8 +100,7 @@ const Footer = () => {
                 <div className="h-px mb-6" style={{ background: "linear-gradient(to right, transparent, rgba(255,255,255,0.06), transparent)" }} />
 
                 <p className="text-center text-text-secondary/50 text-xs font-mono">
-                    © {new Date().getFullYear()} Dineshkumar.N · Built with{" "}
-                    <FaHeart className="inline text-accent/60 text-xs mx-0.5" />
+                    © {new Date().getFullYear()} Dineshkumar.N
                 
                 </p>
             </div>
