@@ -102,7 +102,7 @@ const Footer = () => {
                 <p className="text-center text-text-secondary/50 text-xs font-mono">
                     © {new Date().getFullYear()} Dineshkumar.N · Built with{" "}
                     <FaHeart className="inline text-accent/60 text-xs mx-0.5" />
-                    using React & Tailwind CSS
+                
                 </p>
             </div>
         </footer>
