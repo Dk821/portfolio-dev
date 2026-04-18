@@ -3,30 +3,50 @@ import { FaBriefcase, FaCalendarAlt, FaMapMarkerAlt, FaCheck } from "react-icons
 import { HiSparkles } from "react-icons/hi2";
 
 const experiences = [
-    {
+     {
         id: "01",
+        role: "Fullstack development",
+        company: "Craitrix Technologies Pvt Ltd",
+        location: "Remote",
+        type: "Internship",
+        duration: "2025",
+         accentColor: "#10b981",
+        glowColor: "rgba(16,185,129,0.15)",
+        borderColor: "rgba(16,185,129,0.3)",
+        tagBg: "rgba(255, 233, 194, 0.1)",
+        tagText: "#10b981",
+        desc: [
+            "Developed full-stack web applications using React.js, Django, and MySQL",
+            "Collaborated in team-based projects, contributing to both frontend and backend modules",
+            "Applied strong problem-solving skills to debug and optimize application performance",
+        ],
+    },
+
+
+    {
+        id: "02",
         role: "Fullstack development",
         company: "Systech",
         location: "Coimbatore",
-        type: "Internship",
-        duration: "2024",
+        type: "offline courses",
+        duration: "2025",
         accentColor: "#f59e0b",
         glowColor: "rgba(245,158,11,0.15)",
         borderColor: "rgba(245,158,11,0.35)",
         tagBg: "rgba(245,158,11,0.1)",
         tagText: "#f59e0b",
         desc: [
-            "Developed full-stack web applications using modern frameworks",
-            "Worked on responsive user interfaces and backend logic",
-            "Collaborated on database design and API integration",
+           "Gained hands-on experience in HTML, CSS, MySQL, and Tkinter",
+            "Focused on Python Core and Django for web development",
+            "Developed database management skills and responsive web design",
         ],
     },
     {
-        id: "02",
+        id: "03",
         role: "Graphic designer",
         company: "Hillborn Technologies",
         location: "Remote",
-        type: "Part-time",
+        type: "Internship",
         duration: "2024",
         accentColor: "#a855f7",
         glowColor: "rgba(168,85,247,0.15)",
@@ -39,24 +59,7 @@ const experiences = [
             "Collaborated with teams to deliver high-quality visual content",
         ],
     },
-    {
-        id: "03",
-        role: "Python FullStack Internship",
-        company: "Offline course",
-        location: "Coimbatore",
-        type: "Internship",
-        duration: "2025",
-        accentColor: "#14b8a6",
-        glowColor: "rgba(20,184,166,0.15)",
-        borderColor: "rgba(20,184,166,0.35)",
-        tagBg: "rgba(20,184,166,0.1)",
-        tagText: "#14b8a6",
-        desc: [
-            "Gained hands-on experience in HTML, CSS, MySQL, and Tkinter",
-            "Focused on Python Core and Django for web development",
-            "Developed database management skills and responsive web design",
-        ],
-    },
+ 
 ];
 
 const cardVariants = {
