@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaReact, FaHtml5, FaCss3Alt, FaPython, FaGitAlt, FaFigma, FaBrain, FaMicrosoft, FaWindows } from "react-icons/fa";
-import { SiJavascript, SiMongodb, SiMysql, SiCanva, SiPostman, SiDjango, SiAdobephotoshop, SiAdobeillustrator, SiBootstrap, SiFlask, SiFastapi } from "react-icons/si";
+import { SiJavascript, SiMongodb, SiMysql, SiCanva, SiPostman, SiDjango, SiAdobephotoshop, SiAdobeillustrator, SiBootstrap, SiFlask, SiFastapi,SiNginx } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 const categories = [
     { id: "all", label: "All" },
@@ -43,6 +43,7 @@ const skills = [
     // Networking & OS
     { name: "Basic Networking", icon: <FaBrain />, iconColor: "#94a3b8", category: "networking", desc: "DNS, IP, HTTP" },
     { name: "Windows", icon: <FaWindows />, iconColor: "#0078D6", category: "networking", desc: "OS" },
+    { name: "NGINX", icon: <SiNginx />, iconColor: "#47A248", category: "networking", desc: "Web Server" },
     { name: "Linux", icon: <FaBrain />, iconColor: "#FCC624", category: "networking", desc: "OS" },
 ];
 
