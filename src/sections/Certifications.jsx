@@ -44,7 +44,7 @@ const certifications = [
     {
         title: "claude code in action",
         issuer: "anthropic",
-        date: "2025",
+        date: "2026",
         link: "#",
         color: "#4ade80",
         glow: "rgba(74,222,128,0.12)",
