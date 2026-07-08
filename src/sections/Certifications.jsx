@@ -41,6 +41,15 @@ const certifications = [
         glow: "rgba(74,222,128,0.12)",
         image: `${certificateBasePath}/Django Masterclass.png`,
     },
+    {
+        title: "claude code in action",
+        issuer: "anthropic",
+        date: "2025",
+        link: "#",
+        color: "#4ade80",
+        glow: "rgba(74,222,128,0.12)",
+        image: `${certificateBasePath}/claude-code-in-action.png`,
+    },
 ];
 
 const Certifications = () => {
