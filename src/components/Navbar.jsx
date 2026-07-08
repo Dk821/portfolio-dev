@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import { PERSONAL_INFO } from "../constants/index";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -69,9 +70,8 @@ const Navbar = () => {
                         </Link>
                     ))}
                     <a
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                        href={PERSONAL_INFO.resumeUrl}
+                        download
                         className="btn-primary text-sm py-2.5 px-6"
                     >
                         Resume
@@ -135,9 +135,8 @@ const Navbar = () => {
                                 transition={{ delay: navLinks.length * 0.07 }}
                             >
                                 <a
-                                    href="#"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
+                                    href={PERSONAL_INFO.resumeUrl}
+                                    download
                                     className="btn-primary inline-block text-center text-sm py-3"
                                     onClick={() => setIsOpen(false)}
                                 >

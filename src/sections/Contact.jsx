@@ -1,10 +1,9 @@
 import { motion } from "framer-motion";
-import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const socials = [
     { icon: <FaGithub />,   href: "https://github.com/DineshKumarN",          label: "GitHub"   },
     { icon: <FaLinkedin />, href: "https://www.linkedin.com/in/n-dineshkumar/", label: "LinkedIn" },
-    { icon: <FaTwitter />,  href: "https://twitter.com/",                       label: "Twitter"  },
 ];
 
 const Contact = () => (
