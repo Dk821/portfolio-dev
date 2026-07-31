@@ -42,6 +42,15 @@ const certifications = [
         image: `${certificateBasePath}/Django Masterclass.png`,
     },
     {
+        title: "Agentic AI Certified Foundations Associate",
+        issuer: "Oracle",
+        date: "2026",
+        link: "#",
+        color: "#fbbf24",
+        glow: "rgba(74,222,128,0.12)",
+        image: `${certificateBasePath}/Agentic-AI-Foundations.png`,
+    },
+    {
         title: "claude code in action",
         issuer: "anthropic",
         date: "2026",
