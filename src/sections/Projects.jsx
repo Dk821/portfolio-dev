@@ -25,6 +25,26 @@ const projects = [
         tag: "Python / Flask",
         number: "02",
     },
+    {
+  title: "Offline Multilingual Voice AI",
+  desc: "Real-time offline ASR supporting 7 languages and code-switched speech using IndicConformer FP16 and Faster-Whisper with FastAPI.",
+  tech: [
+    "Python",
+    "FastAPI",
+    "ASR",
+    "IndicConformer",
+    "Whisper",
+    "ONNX",
+    "VAD",
+    "CUDA"
+  ],
+  github: "https://github.com/Dk821/offline-multilingual-voice-ai.git",
+  accentColor: "#f59e0b",
+  glowColor: "rgba(245,158,11,0.15)",
+borderColor: "rgba(245,158,11,0.35)",
+  tag: "AI / Speech",
+  number: "03",
+},
 ];
 
 const Projects = () => {
