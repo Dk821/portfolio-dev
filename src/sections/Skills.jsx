@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaReact, FaHtml5, FaCss3Alt, FaPython, FaGitAlt, FaFigma, FaBrain, FaMicrosoft, FaWindows } from "react-icons/fa";
-import { SiJavascript, SiMongodb, SiMysql, SiCanva, SiPostman, SiDjango, SiAdobephotoshop, SiAdobeillustrator, SiBootstrap, SiFlask, SiFastapi,SiNginx } from "react-icons/si";
+import { SiJavascript, SiMongodb, SiMysql, SiCanva, SiPostman, SiDjango, SiAdobephotoshop, SiAdobeillustrator, SiBootstrap, SiFlask, SiFastapi,SiNginx,SiAmazonec2,SiAmazons3,SiAmazoniam,SiAmazonwebservices,SiAmazoncloudwatch } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 const categories = [
     { id: "all", label: "All" },
@@ -9,6 +9,7 @@ const categories = [
     { id: "frameworks", label: "Frameworks" },
     { id: "backend", label: "Backend" },
     { id: "database", label: "Databases" },
+    { id: "devops", label: "DevOps & Cloud" },
     { id: "design", label: "Design" },
     { id: "software", label: "Software" },
     { id: "networking", label: "Networking & OS" },
@@ -30,6 +31,12 @@ const skills = [
     // Databases
     { name: "SQL", icon: <SiMysql />, iconColor: "#4479A1", category: "database", desc: "Relational" },
     { name: "Mongo DB", icon: <SiMongodb />, iconColor: "#47A248", category: "database", desc: "NoSQL" },
+    // DevOps & Cloud
+    { name: "AWS EC2", icon: <SiAmazonec2 />, iconColor: "#FF9900", category: "devops", desc: "Cloud Server" },
+    { name: "AWS S3", icon: <SiAmazons3 />, iconColor: "#569A31", category: "devops", desc: "Object Storage" },
+    { name: "AWS IAM", icon: <SiAmazoniam />, iconColor: "#DD344C", category: "devops", desc: "Access Management" },
+    { name: "AWS VPC", icon: <SiAmazonwebservices />, iconColor: "#8C4FFF", category: "devops", desc: "Cloud Networking" },
+    { name: "CloudWatch", icon: <SiAmazoncloudwatch />, iconColor: "#FF4F8B", category: "devops", desc: "Monitoring" },
     // Design
     { name: "Canva", icon: <SiCanva />, iconColor: "#00C4CC", category: "design", desc: "Visual Design" },
     { name: "Photoshop", icon: <SiAdobephotoshop />, iconColor: "#31A8FF", category: "design", desc: "Photo Editing" },

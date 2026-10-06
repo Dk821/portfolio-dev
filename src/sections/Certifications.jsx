@@ -59,6 +59,15 @@ const certifications = [
         glow: "rgba(74,222,128,0.12)",
         image: `${certificateBasePath}/claude-code-in-action.png`,
     },
+    {
+        title: "AWS Cloud Practitioner Essentials",
+        issuer: "Skill Builder by AWS",
+        date: "2026",
+        link: "#",
+        color: "#fbbf24",
+        glow: "rgba(74,222,128,0.12)",
+        image: `${certificateBasePath}/AWS-Cloud-Practitioner-Essentials.png`,
+    },
 ];
 
 const Certifications = () => {
